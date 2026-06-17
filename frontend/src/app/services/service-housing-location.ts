@@ -5,7 +5,7 @@ import { InterfaceHousingLocation } from '../interfaces/interface-housing-locati
   providedIn: 'root'
 })
 export class HousingLocationService {
-  url = 'http://localhost/proyectos/angular_php_ing_web_ii/backend/controllers/Locations.php';
+  url = 'http://localhost/angular_php_ing_web_ii/backend/controllers/Locations.php';
 
   constructor() { }
 
