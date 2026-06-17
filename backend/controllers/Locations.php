@@ -51,7 +51,7 @@
                     empty($body['availableUnits']) ||
                     !isset($body['wifi']) ||
                     !isset($body['laundry'])) {
-                        sendResponse(400, " );
+                        sendResponse(400, "Datos de entrada inválidos");
                 }
                 $data = $location->createHousingLocation(
                             $body['name'],
